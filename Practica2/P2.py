@@ -1,3 +1,6 @@
+#Mario Gerardo Casas Miramontes   6°G    22310165
+#Practica 2
+
 import cv2
 import numpy as np
 
