@@ -7,7 +7,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gray = np.float32(gray)
 
 # Detección de esquinas
-corners = cv2.goodFeaturesToTrack(gray, 50, 0.01, 10)
+corners = cv2.goodFeaturesToTrack(gray, 50, 0.01, 10) #Parametros de deteccion de esquina.
 corners = corners.astype(int)
 
 # Dibujar círculos
